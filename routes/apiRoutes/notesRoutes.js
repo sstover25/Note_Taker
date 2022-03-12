@@ -1,19 +1,14 @@
 const router = require("express").Router();
 const { notes } = require("../../db/db.json");
-// const {
-//   getNotes,
-//   saveNote,
-//   deleteNote,
-// } = require("../../public/assets/js/index");
+const { nanoid } = require("nanoid");
 
 router.get("/notes", (req, res) => {
-  let results = notes;
-  res.json(results);
+  res.json(notes);
 });
 
-// router.post("/notes", (req, res) => {
-//   const note = saveNote(req.body, notes);
-//   req.json(note);
-// });
+router.post("/notes", (req, res) => {
+  const note = saveNote(req.body, notes);
+  req.json(note);
+});
 
 module.exports = router;
