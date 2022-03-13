@@ -50,11 +50,11 @@ right-hand column.
 
 The following images demonstrates the application functionality:
 
-The application in the terminal
+The application on the landing page
 
 ![The Note Taker title page is shown. It shows the title, a tag line of "Take Notes with Express", and a button labeled "Get Started".](./assets/images/Note-Taker-landing-page.jpg)
 
-The HTML file generated after closing out the application
+The application on the notes page
 
 ![The main page of the Note Taker app shows the existing notes in the left-side column. The right-side column contains a blank note template.](./assets/images/Note-Taker-notes-page.jpg)
 
